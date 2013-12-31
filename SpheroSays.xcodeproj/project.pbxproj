@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C6B5145187362E0000A5663 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6B5144187362E0000A5663 /* GameKit.framework */; };
 		2CD572111872707800B121B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD572101872707800B121B2 /* Foundation.framework */; };
 		2CD572131872707800B121B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD572121872707800B121B2 /* CoreGraphics.framework */; };
 		2CD572151872707800B121B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD572141872707800B121B2 /* UIKit.framework */; };
@@ -21,6 +22,14 @@
 		2CD572321872707800B121B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD572141872707800B121B2 /* UIKit.framework */; };
 		2CD5723A1872707900B121B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CD572381872707900B121B2 /* InfoPlist.strings */; };
 		2CD5723C1872707900B121B2 /* SpheroSaysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5723B1872707900B121B2 /* SpheroSaysTests.m */; };
+		2CD57248187270CA00B121B2 /* RobotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD57245187270CA00B121B2 /* RobotKit.framework */; };
+		2CD57249187270CA00B121B2 /* RobotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD57245187270CA00B121B2 /* RobotKit.framework */; };
+		2CD5724A187270CA00B121B2 /* RobotUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2CD57246187270CA00B121B2 /* RobotUIKit.bundle */; };
+		2CD5724B187270CA00B121B2 /* RobotUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2CD57246187270CA00B121B2 /* RobotUIKit.bundle */; };
+		2CD5724C187270CA00B121B2 /* RobotUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD57247187270CA00B121B2 /* RobotUIKit.framework */; };
+		2CD5724D187270CA00B121B2 /* RobotUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD57247187270CA00B121B2 /* RobotUIKit.framework */; };
+		2CD5724F187270E300B121B2 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD5724E187270E300B121B2 /* ExternalAccessory.framework */; };
+		2CD57251187270EA00B121B2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD57250187270EA00B121B2 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C6B5144187362E0000A5663 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		2CD5720D1872707800B121B2 /* SpheroSays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpheroSays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD572101872707800B121B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2CD572121872707800B121B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +63,11 @@
 		2CD572371872707900B121B2 /* SpheroSaysTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpheroSaysTests-Info.plist"; sourceTree = "<group>"; };
 		2CD572391872707900B121B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CD5723B1872707900B121B2 /* SpheroSaysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpheroSaysTests.m; sourceTree = "<group>"; };
+		2CD57245187270CA00B121B2 /* RobotKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RobotKit.framework; sourceTree = "<group>"; };
+		2CD57246187270CA00B121B2 /* RobotUIKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RobotUIKit.bundle; sourceTree = "<group>"; };
+		2CD57247187270CA00B121B2 /* RobotUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RobotUIKit.framework; sourceTree = "<group>"; };
+		2CD5724E187270E300B121B2 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		2CD57250187270EA00B121B2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6B5145187362E0000A5663 /* GameKit.framework in Frameworks */,
+				2CD57251187270EA00B121B2 /* CoreMotion.framework in Frameworks */,
+				2CD5724F187270E300B121B2 /* ExternalAccessory.framework in Frameworks */,
+				2CD5724C187270CA00B121B2 /* RobotUIKit.framework in Frameworks */,
+				2CD57248187270CA00B121B2 /* RobotKit.framework in Frameworks */,
 				2CD572131872707800B121B2 /* CoreGraphics.framework in Frameworks */,
 				2CD572151872707800B121B2 /* UIKit.framework in Frameworks */,
 				2CD572111872707800B121B2 /* Foundation.framework in Frameworks */,
@@ -70,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD5724D187270CA00B121B2 /* RobotUIKit.framework in Frameworks */,
+				2CD57249187270CA00B121B2 /* RobotKit.framework in Frameworks */,
 				2CD572301872707800B121B2 /* XCTest.framework in Frameworks */,
 				2CD572321872707800B121B2 /* UIKit.framework in Frameworks */,
 				2CD572311872707800B121B2 /* Foundation.framework in Frameworks */,
@@ -101,6 +123,12 @@
 		2CD5720F1872707800B121B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2C6B5144187362E0000A5663 /* GameKit.framework */,
+				2CD57250187270EA00B121B2 /* CoreMotion.framework */,
+				2CD5724E187270E300B121B2 /* ExternalAccessory.framework */,
+				2CD57245187270CA00B121B2 /* RobotKit.framework */,
+				2CD57246187270CA00B121B2 /* RobotUIKit.bundle */,
+				2CD57247187270CA00B121B2 /* RobotUIKit.framework */,
 				2CD572101872707800B121B2 /* Foundation.framework */,
 				2CD572121872707800B121B2 /* CoreGraphics.framework */,
 				2CD572141872707800B121B2 /* UIKit.framework */,
@@ -229,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CD572291872707800B121B2 /* Images.xcassets in Resources */,
+				2CD5724A187270CA00B121B2 /* RobotUIKit.bundle in Resources */,
 				2CD5721B1872707800B121B2 /* InfoPlist.strings in Resources */,
 				2CD572241872707800B121B2 /* Main.storyboard in Resources */,
 			);
@@ -239,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CD5723A1872707900B121B2 /* InfoPlist.strings in Resources */,
+				2CD5724B187270CA00B121B2 /* RobotUIKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,9 +335,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -320,7 +350,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -334,9 +364,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -344,9 +375,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -360,16 +391,18 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -378,9 +411,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/eddie/Source/SpheroSays,
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpheroSays/SpheroSays-Prefix.pch";
 				INFOPLIST_FILE = "SpheroSays/SpheroSays-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+					"-lsqlite3",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,9 +435,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/eddie/Source/SpheroSays,
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpheroSays/SpheroSays-Prefix.pch";
 				INFOPLIST_FILE = "SpheroSays/SpheroSays-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+					"-lsqlite3",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,6 +463,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/eddie/Source/SpheroSays,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpheroSays/SpheroSays-Prefix.pch";
@@ -431,6 +487,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/eddie/Source/SpheroSays,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpheroSays/SpheroSays-Prefix.pch";
@@ -460,6 +517,7 @@
 				2CD572411872707900B121B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CD572421872707900B121B2 /* Build configuration list for PBXNativeTarget "SpheroSaysTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +526,7 @@
 				2CD572441872707900B121B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,5 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    BOOL _robotOnline;
+    BOOL _ledState;
+}
 
+// Sphero Hookup Things
+-(void)setupRobotConnection;
+-(void)handleRobotOnline;
+-(void)foregroundHandler;
+-(void)backgroundHandler;
+
+// My App Things
+-(void)toggleLED;
 @end
